@@ -26,11 +26,22 @@ body{
 
 }
 
-#block{
+#block1{
     width: 50px;
-    height: 750px;
+    height: 300px;
     background-color: black;
     position: relative;
+    top: 78px;
+    left: 800px;
+    animation: block 2s infinite linear;
+}
+
+#block2{
+    width: 50px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    top: 378px;
     left: 800px;
     animation: block 2s infinite linear;
 }
@@ -43,13 +54,15 @@ body{
 #hole{
     width: 50px;
     height: 150px;
-    background-image: url("https://i.pinimg.com/564x/2c/45/14/2c451477c3da34cd3817c4b4ddef6e9e.jpg");
+    overflow: hidden;
+    background-color: transparent;
+    overflow: hidden;
     position: relative;
     left: 400px;
-    top: -500px;
     animation: block 2s infinite linear;
-    opacity: 0.5;
 }
+
+
 
 #character{
     width: 53px;
