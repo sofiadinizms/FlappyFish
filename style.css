@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+
+
 #game{
     width: 800px;
     height: 600px;
@@ -11,12 +13,18 @@
     overflow: hidden;
     display: flex;
     align-items: center;
+    position: relative;
+    top: 30px;
+    background-image: url("https://i.pinimg.com/originals/e9/bd/69/e9bd6981665e9e0dee1c3d9873101872.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 
 }
 
 #block{
     width: 50px;
-    height: 600px;
+    height: 750px;
     background-color: black;
     position: relative;
     left: 400px;
@@ -31,18 +39,20 @@
 #hole{
     width: 50px;
     height: 150px;
-    background-color: white;
+    background-image: url("https://i.pinimg.com/originals/e9/bd/69/e9bd6981665e9e0dee1c3d9873101872.jpg");
     position: relative;
     left: 400px;
     top: -500px;
     animation: block 2s infinite linear;
+    opacity: 0.5;
 }
 
 #character{
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 53px;
+    height: 53px;
     position: absolute;
     top: 100px;
-    border-radius: 50%;
+    left: 50px;
+    
+
 }

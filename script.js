@@ -30,10 +30,10 @@ setInterval(function(){
     var holeTop = parseInt(window.getComputedStyle(hole).getPropertyValue("top"));
     var characterTop = 
     parseInt(window.getComputedStyle(character).getPropertyValue("top"));
-    var cTop = -(500-characterTop);
-    if((characterTop>480) || ((blockLeft<20) && (blockLeft>-50) && ((cTop<holeTop) || 
-    (cTop>holeTop+130)))){
-        /*alert("Game over.Score: "+counter);*/
+    var cTop = -(600-characterTop);
+    if((characterTop>630) || ((blockLeft<20) && (blockLeft>-50) && ((cTop<holeTop) || 
+    (cTop>holeTop+200)))){
+        alert("Game over.Score: "+counter);
         character.style.top = 100 + "px";
         counter=0;
     }
