@@ -3,22 +3,26 @@
     margin: 0;
 }
 
-
-
+body{
+    background: url("https://i.pinimg.com/564x/be/af/7c/beaf7cd0b2670268c6844e9c37989b37.jpg") no-repeat center fixed;
+    background-size: cover;
+}
 #game{
     width: 800px;
     height: 600px;
-    border: 1px solid black;
+    border: none;
+    box-shadow: 10px 10px 110px rgb(66, 156, 201);
     margin: auto;
     overflow: hidden;
     display: flex;
     align-items: center;
     position: relative;
-    top: 30px;
-    background-image: url("https://i.pinimg.com/originals/e9/bd/69/e9bd6981665e9e0dee1c3d9873101872.jpg");
+    top: 78px;
+    background-image: url("https://i.pinimg.com/564x/2c/45/14/2c451477c3da34cd3817c4b4ddef6e9e.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    border-radius: 10px;
 
 }
 
