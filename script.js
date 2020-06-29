@@ -12,6 +12,13 @@ hole.addEventListener('animationiteration', () => {
     counter++;
 });
 
+window.addEventListener("keydown",(event) =>{
+    const {key} = event;
+    if (key == ' '){
+        jump();
+    }
+})
+
 /*Gravity function*/
 setInterval(function(){
     var characterTop = 
