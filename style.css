@@ -27,19 +27,19 @@
     height: 750px;
     background-color: black;
     position: relative;
-    left: 400px;
+    left: 800px;
     animation: block 2s infinite linear;
 }
 
 @keyframes block{
-    0%{left: 400px}
+    0%{left: 800px}
     100%{left: -50px}
 }
 
 #hole{
     width: 50px;
     height: 150px;
-    background-image: url("https://i.pinimg.com/originals/e9/bd/69/e9bd6981665e9e0dee1c3d9873101872.jpg");
+    background-image: url("https://i.pinimg.com/564x/2c/45/14/2c451477c3da34cd3817c4b4ddef6e9e.jpg");
     position: relative;
     left: 400px;
     top: -500px;
