@@ -29,9 +29,9 @@ setInterval(function(){
     var obstaculoLeft = parseInt(window.getComputedStyle(block1,block2).getPropertyValue("left"));
     var holeTop = parseInt(window.getComputedStyle(hole).getPropertyValue("top"));
     var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
-    var cTop = -(578-characterTop);
-    if((characterTop>678) || ((obstaculoLeft<20) && (obstaculoLeft>-50) && ((cTop<holeTop) || 
-    (cTop>holeTop+97)))){
+    var cTop = -(600-characterTop);
+    if((characterTop>630) || ((obstaculoLeft<20) && (obstaculoLeft>-50) && ((cTop<holeTop) || 
+    (cTop>holeTop+200)))){
         alert("Game over.Score: "+counter);
         character.style.top = 100 + "px";
         counter=0;
