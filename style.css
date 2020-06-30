@@ -28,21 +28,19 @@ body{
 
 #block1{
     width: 50px;
-    height: 300px;
+    height: 500px;
     background-color: black;
+    border-radius: 8px;
     position: relative;
-    top: 78px;
-    left: 800px;
     animation: block 2s infinite linear;
 }
 
 #block2{
     width: 50px;
-    height: 300px;
+    height: 500px;
     background-color: black;
     position: relative;
-    top: 378px;
-    left: 800px;
+    border-radius: 8px;
     animation: block 2s infinite linear;
 }
 
@@ -59,6 +57,7 @@ body{
     overflow: hidden;
     position: relative;
     left: 400px;
+    top: -500px;
     animation: block 2s infinite linear;
 }
 
@@ -72,4 +71,12 @@ body{
     left: 50px;
     
 
+}
+
+#obstaculo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 800px;
+    animation: block 2s infinite linear;
 }
