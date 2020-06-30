@@ -29,7 +29,7 @@ body{
 #block1{
     width: 50px;
     height: 500px;
-    background-color: black;
+    background-color: rgb(98, 188, 248);
     border-radius: 8px;
     position: relative;
     animation: block 2s infinite linear;
@@ -38,7 +38,7 @@ body{
 #block2{
     width: 50px;
     height: 500px;
-    background-color: black;
+    background-color: rgb(98, 188, 248);
     position: relative;
     border-radius: 8px;
     animation: block 2s infinite linear;
